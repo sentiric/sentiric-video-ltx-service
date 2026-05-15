@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "sentiric-video-ltx-service"
+version = "1.0.0"
+description = "Expert Engine for Text-to-Video (T2V). Powered by LTX-Video 0.9.5."
+authors = ["Sentiric Team"]
+license = "AGPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.mypy]
+ignore_missing_imports = true
