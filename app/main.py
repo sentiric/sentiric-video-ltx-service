@@ -9,7 +9,7 @@ from app.core.logging_utils import setup_logging
 from app.core.engine import ltx_engine
 from app.grpc_server import serve_grpc
 
-setup_logging()
+setup_logging("video-ltx-service")
 logger = structlog.get_logger()
 
 @asynccontextmanager
